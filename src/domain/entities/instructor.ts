@@ -1,13 +1,13 @@
-import { Entity } from "@/core/entitites/entity"
+import { Entity } from "@/core/entities/entity"
 
 interface InstructorProps {
   name: string
 }
 
-export class Instructor extends Entity{
+export class Instructor extends Entity<InstructorProps> {
 
   constructor(props: InstructorProps, id?: string) {
-    super(props,id)
+    super(props, id)
   }
 
 }

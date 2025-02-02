@@ -10,8 +10,8 @@
     "test":"vitest run",
     "test:watch":"vitest" 
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["DDD","Node.js"],
+  "author": "<@fabiobrasileiro>",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.13.0",
