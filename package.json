@@ -7,15 +7,21 @@
   },
   "main": "src/index.js",
   "scripts": {
-    "test":"vitest run",
-    "test:watch":"vitest" 
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
-  "keywords": ["DDD","Node.js"],
+  "keywords": [
+    "DDD",
+    "Node.js"
+  ],
   "author": "<@fabiobrasileiro>",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.13.0",
     "typescript": "^5.7.3",
     "vitest": "^3.0.4"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
   }
 }
