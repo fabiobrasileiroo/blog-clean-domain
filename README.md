@@ -3,11 +3,13 @@
 Design dirigido à domínio
 
 ## Domínio
+
 - Domain Experts
   - Conversa
 - Linguagem ubíqua
 
 - Usuário
+
   - Cliente
   - Fornecedor
   - Atendente
@@ -21,7 +23,8 @@ Design dirigido à domínio
 - Casos de uso
 
 ## Essential Dependency Installation Guide
-``` bash 
+
+```bash
 pnpm i typescript @types/node -D
 pnpm i vitest -D
-``` 
+```
